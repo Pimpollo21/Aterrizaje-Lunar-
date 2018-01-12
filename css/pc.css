@@ -1,0 +1,348 @@
+/* =====================================================*/
+/* ===< Clases                                      >===*/
+/* =====================================================*/
+/**/
+/* ==============================*/
+/* Clase desplegable            ======================= */
+/* ==============================*/
+.desplegable {
+    position:    absolute;
+	top:         21px;
+	margin-left: 950px;
+    display:     inline-block;
+}
+
+.desplegable:hover .desplegable_contenido {
+    display: block;
+}
+
+.desplegable:hover .desplegable_boton {
+    background-color: rgb(74, 74, 74);
+}
+
+
+/* ==============================*/
+/* Clase desplegable_boton       */
+/* ==============================*/
+.desplegable_boton {
+    background-color: rgb(74, 74, 74);
+    color:            white;
+	top:              0px;
+	position:         relative;
+    padding:          16px;
+    font-size:        20px;
+	font-weight:      bold;
+    border-radius:    20px;
+    cursor:           pointer;
+}
+
+/* ==============================*/
+/* Clase desplegable_contenido   */
+/* ==============================*/
+.desplegable_contenido {
+    display:          none;
+    position:         relative;
+	right:			  0;
+    background-color: grey;
+    min-width:        180px;
+    box-shadow:       0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding:          12px 16px;
+	border-radius:    20px;
+    z-index:          1;
+}
+
+.desplegable_contenido a {
+    color: 		 rgb(0, 9, 80);
+	font-weight: bold;
+    padding:     12px;
+    display:     block;
+}
+
+.desplegable_contenido a:hover { background-color: white;
+							     border-radius:   20px; }
+
+								 
+								 
+/* ==============================*/
+/* Clase desplegable conf       ======================= */
+/* ==============================*/
+.desplegable_conf {
+    position:     relative;
+	top:          21px;
+	padding:      20px 10px;
+	margin-left:  410px;
+	margin-right: 410px;
+    display:      inline-block;
+}
+
+.desplegable_conf:hover .desplegable_contenido_conf {
+    display: block;
+}
+
+.desplegable_conf:hover .desplegable_boton_conf {
+    background-color: rgb(74, 74, 74);
+}
+
+/* ==============================*/
+/* Clase desplegable_boton_conf  */
+/* ==============================*/
+.desplegable_boton_conf {
+    background-color: rgb(74, 74, 74);
+    color:            white;
+	top:              0px;
+	position:         relative;
+    padding:          16px;
+    font-size:        20px;
+	font-weight:      bold;
+    border-radius:    20px;
+    cursor:           pointer;
+}
+
+/* ===================================*/
+/* Clase desplegable_contenido_conf  */
+/* ===================================*/
+.desplegable_contenido_conf {
+    display:          none;
+    position:         relative;
+	right:			  0;
+    background-color: grey;
+    min-width:        180px;
+    box-shadow:       0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding:          12px 16px;
+	border-radius:    20px;
+    z-index:          1;
+}
+
+.desplegable_contenido_conf a {
+    color: 		 rgb(0, 9, 80);
+	font-weight: bold;
+    padding:     12px;
+    display:     block;
+}
+
+.desplegable_contenido_conf a:hover { background-color: white;
+							    border-radius:    20px; }						
+								
+					
+/* ==============================*/
+/* Clase desplegable index      ======================= */
+/* ==============================*/
+.desplegable_index {
+    position:     relative;
+	top:          21px;
+	padding:      20px 10px;
+	margin-left:  410px;
+	margin-right: 410px;
+    display:      inline-block;
+}
+
+.desplegable_index:hover .desplegable_contenido_index {
+    display: block;
+}
+
+.desplegable_index:hover .desplegable_boton_index {
+    background-color: rgb(74, 74, 74);
+}
+
+/* ==============================*/
+/* Clase desplegable_boton_index */
+/* ==============================*/
+.desplegable_boton_index {
+    background-color: rgb(74, 74, 74);
+    color:            white;
+	top:              0px;
+	position:         relative;
+    padding:          16px;
+    font-size:        20px;
+	font-weight:      bold;
+    border-radius:    20px;
+    cursor:           pointer;
+}
+
+/* ===================================*/
+/* Clase desplegable_contenido_index  */
+/* ===================================*/
+.desplegable_contenido_index {
+    display:          none;
+    position:         relative;
+	right:			  0;
+    background-color: grey;
+    min-width:        180px;
+    box-shadow:       0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding:          12px 16px;
+	border-radius:    20px;
+    z-index:          1;
+}
+
+.desplegable_contenido_index a {
+    color: 		 rgb(0, 9, 80);
+	font-weight: bold;
+    padding:     12px;
+    display:     block;
+}
+
+.desplegable_contenido_index a:hover { background-color: white;
+							    border-radius:    20px; }
+
+								
+								
+								
+/* ==============================*/
+/* Clase nave                    */
+/* ==============================*/
+@media (min-width: 501px){
+	.nave{
+		margin-left:  460px;
+		margin-right: 460px;
+	}
+}
+
+/* =====================================================*/
+/* ===< Estilos                                     >===*/
+/* =====================================================*/
+/**/
+/* ========================*/
+/* Estilos del cuerpo      */
+/* ========================*/
+@media (min-width: 501px){
+	body {
+		background-image:      url("img/background_1400.jpg");
+		
+		background-repeat:     no-repeat;
+		background-attachment: fixed;
+		background-size:       cover;
+		
+		font-family:           Arial, Calibri;
+		margin-left:           150px;
+		margin-right:          150px;
+	}
+}
+
+/* ========================*/
+/* Estilos de cabeceras    */
+/* ========================*/
+h1{
+	background-color: rgb(0, 9, 80);
+	padding:          55px;
+	margin-left:      340px;
+	margin-right:     340px;
+	border-radius:    25px;
+	text-align:       center;
+	color:            white;
+}
+
+h2{
+	background-color: rgb(129, 129, 129);
+	padding:          20px;
+	margin-left:      220px;
+	margin-right:     220px;
+	text-align:       center;
+	border-radius:    20px;
+	color:            white;
+}
+
+h3{
+	background-color: rgb(74, 74, 74);
+	padding:          20px 58px;;
+	top:              0px;
+	position:         absolute;
+	margin-left:      60px;
+	left:             0;
+	border-radius:    20px;
+	color:            white;
+}
+
+#cabecera_pausa{
+	background-color: red;
+	padding:          45px;
+	margin-top:       250px;
+	margin-left:      340px;
+	margin-right:     340px;
+	border-radius:    25px;
+	text-align:       center;
+	color:            white;	
+}
+
+/* ========================*/
+/* Estilos de párrafos     */
+/* ========================*/
+#parrafo1{
+	border-left:      20px;
+	border-right:     5px;
+	border-bottom:    5px;
+	border-top:       5px;
+	border-style:     solid;
+	border-color:     rgb(0, 60, 69);
+	
+	background-color: white;
+	padding:          20px;
+	
+	margin-left:      0px;
+	margin-right:     0px;
+	margin-top:       80px;
+	margin-bottom:    50px;
+	
+	font-weight:      bold;
+}
+
+/* ========================*/
+/* Estilos de tabla        */
+/* ========================*/
+table{
+	border-collapse: collapse;
+	position:        absolute;
+	top:		 	 100px;
+	position:		 absolute;
+	margin-left: 	 60px;
+	left:			 0;
+}
+
+table, th, td{
+    border:		 2px solid black;
+	font-size:   15px;
+	font-weight: bold;
+}
+
+th{
+	background-color: grey;
+	padding:          0px 15px;
+	width:            10px;
+	text-align:       right;
+}
+
+td{
+	background-color: rgb(182, 184, 182);
+	width:            70%;
+}
+	
+/* ===============*/
+/* Tabla a        */
+/* ===============*/
+th a {
+    display:         block;
+    color:           rgb(0, 9, 80);
+    padding:         8px 16px;
+    text-decoration: none;
+}
+
+td a {
+    display:         block;
+    color:           rgb(0, 9, 80);
+    padding:         8px 16px;
+    text-decoration: none;
+}
+
+/* ===============*/
+/* Nave           */
+/* ===============*/
+#nave{text-align: center;
+	  position:   fixed;
+	  top:        10%;
+	  width:      50%;
+	  height:     20%;
+	  }
+	  
+#nave img{height:100%;}
+
+
+
