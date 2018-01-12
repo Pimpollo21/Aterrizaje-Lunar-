@@ -13,7 +13,7 @@ Los estilos de dichos html están codificados en dos css, uno, utilizado para di
 
 En cada html está codificada una media query para identificar, dependiendo de la pantalla del dispositivo, a que hoja de estilos acceder, con lo cual conseguimos un diseño paralelo que se diferencia en el tamaño de los elementos y su posición en pantalla: cabaceras, desplegable, tabla, nave...
 
-Dado lo anterior, tenemos tan solo, en nuestro caso, 5 ficheros html: index, como_jugar, nueva_partida, pause y reanudar.
+Dado lo anterior, tenemos tan solo, en nuestro caso, 7 ficheros html: index, como_jugar, confirmación1, confirmación2, modo_difícil, modo_fácil y sobre_el_juego.
 
 ## Paso 3: comprobación de media query.
 Para comprobar la funcionalidad del media query, he copiado los archivos y ejecutado los html en un dipositivo móvil (bq Aquaris U lite en mi caso), para comprobar la redimensión de los elementos acorde a la resolución de pantalla.
@@ -73,5 +73,5 @@ En este paso, hemos introducido dos ficheros javascript para conseguir el movimi
 Por último, he creado el presente fichero README en el repositorio con los detalles de los pasos que he seguido para llevar a cabo la tarea. 
 
 ## Dirección URL.
-El enlace de RawGit a mi web es: https://rawgit.com/Pimpollo21/Aterrizaje-Lunar/master/index.html 
-El enlace de RawGit del código minificado es: https://rawgit.com/Pimpollo21/Aterrizaje-Lunar/Pimpollo21-Palma/index.html
+El enlace de RawGit a mi web es: https://rawgit.com/Pimpollo21/Aterrizaje-Lunar-/master/index.html
+El enlace de RawGit del código minificado es: https://rawgit.com/Pimpollo21/Aterrizaje-Lunar-/Master-Aterrizaje/index.html
