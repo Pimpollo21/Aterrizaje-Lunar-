@@ -53,16 +53,23 @@ Tras la validación de los html y css:
 
 ![Validacion 5](/img/validacion5.PNG).
 
-Las validaciones de css son las siguientes:
-
 ![Validacion 6](/img/validacion6.PNG).
 
 ![Validacion 7](/img/validacion7.PNG).
 
-## Paso 8: minificación de código.
-Para minificar el código, nos dirigimos a la página [willpeavy](https://www.willpeavy.com/minifier/) y pegamos el código de los html y css. A continuación, copiamos el código en nuevos html y css e introduciremos un branch en GitHub donde se incluyen con los códigos minimificados.
+Las validaciones de css son las siguientes:
 
-## Paso 9: Creación del README.md.
+![Validacion 8](/img/validacion8.PNG).
+
+![Validacion 9](/img/validacion9.PNG).
+
+## Paso 8: minificación de código.
+Para minificar el código, nos dirigimos a la página [willpeavy](https://www.willpeavy.com/minifier/) y pegamos el código de los html y css. A continuación, copiamos el código en nuevos html y css e introduciremos un branch en GitHub (Master Aterrizaje Lunar) donde se incluyen con los códigos minimificados.
+
+## Paso 9: Introducción de javascript.
+En este paso, hemos introducido dos ficheros javascript para conseguir el movimiento de la nave, así como los indicadores de velocidad, altura, carburante y el umbral establecido.
+
+## Paso 10: Creación del README.md.
 Por último, he creado el presente fichero README en el repositorio con los detalles de los pasos que he seguido para llevar a cabo la tarea. 
 
 ## Dirección URL.
